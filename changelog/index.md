@@ -23,7 +23,7 @@ Você também pode se inscrever para receber as notificações de alterações d
 
 ### 27/01/2018
 
-* Adicionado novo parâmetro para criação de [Boleto](/reference/v1/bank_billets).
+* Adicionado novo parâmetro para criação de [Boleto](/reference/v1/bank_billets): ignore_email.
 
 ### 22/01/2018
 
