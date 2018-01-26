@@ -103,6 +103,7 @@ breadcrumb: Boletos
 | **installment_number**          | N/A   | Integer |         | Número da parcela do carnê
 | **installment_id**              | N/A   | Integer |         | ID do [Carnê](/reference/v1/installments/)
 | **bank_billet_discharges**      | N/A   | Array   |         | Retornos bancários
+| **ignore_email**                | N/A   | Boolean |         | Define se este boleto não será enviado por email
 
 ### Dicionário de Dados
 
