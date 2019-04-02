@@ -109,11 +109,57 @@ A regra é que todos os payloads possuem as chaves `event_code`, `webhook`, `obj
         "occurrence_error_detail": "Compensação Eletrônica"
       }
     ],
+    "bank_billet_remittances": [
+      {
+        "bank_billet_account_id": 1,
+        "bank_billet_id": 1,
+        "occurrence": "01",
+        "occurrence_detail": "Entrada de Título",
+        "our_code": "1001",
+        "processed_at": null,
+        "remittance_id": null
+      }
+    ],
+    "bank_billet_payments": [
+      {
+        "bank_billet_id": 1,
+        "bank_billet_account_id": 1,
+        "paid_amount": 200.0,
+        "paid_at": "2014-03-08",
+        "bank_rate": 0.25,
+        "paid_bank": "001",
+        "paid_agency": "0001"
+      }
+    ],
+    "bank_billet_registrations": [
+      {
+        "bank_billet_id" 1,
+        "created_at": "2014-03-08",
+        "updated_at": null,
+        "error_message": null,
+        "failed_at": null,
+        "fails_count": null,
+        "registered_at": "2014-03-10",
+        "status": "1"
+      }
+    ],
     "customer_address_number": null,
     "customer_subscription_id": null,
     "processed_our_number_raw": "0000295728",
     "beneficiary_assignor_code": "1234/1234567",
-    "customer_address_complement": null
+    "customer_address_complement": null,
+    "payment_count": 1,
+    "registered_at": null,
+    "prevent_registration": false,
+    "control_number": null,
+    "divergent_payment_type": null,
+    "divergent_payment_value_type": null,
+    "divergent_payment_minimum_value": null,
+    "divergent_payment_maximum_value": null,
+    "divergent_payment_minimum_percentage": null,
+    "divergent_payment_maximum_percentage": null,
+    "divergent_payment_limit": null,
+    "days_for_revoke": null
   },
   "changes": {
     "status": [
@@ -212,7 +258,17 @@ A regra é que todos os payloads possuem as chaves `event_code`, `webhook`, `obj
     "days_in_advance": 10,
     "bank_billet_layout_id": 1,
     "late_payment_interest": 1.0,
-    "bank_billet_account_id": 1
+    "bank_billet_account_id": 1,
+    "payment_count": 1,
+    "prevent_registration": false,
+    "divergent_payment_type": null,
+    "divergent_payment_value_type": null,
+    "divergent_payment_minimum_value": null,
+    "divergent_payment_maximum_value": null,
+    "divergent_payment_minimum_percentage": null,
+    "divergent_payment_maximum_percentage": null,
+    "divergent_payment_limit": null,
+    "days_for_revoke": null
   },
   "event_code": "customer_subscription.created",
   "webhook": {
@@ -308,7 +364,17 @@ A regra é que todos os payloads possuem as chaves `event_code`, `webhook`, `obj
         "customer_subscription_id": null,
         "processed_our_number_raw": "140000000000503458",
         "beneficiary_assignor_code": "9999/600299-4",
-        "customer_address_complement": ""
+        "customer_address_complement": "",
+        "payment_count": 1,
+        "prevent_registration": false,
+        "divergent_payment_type": null,
+        "divergent_payment_value_type": null,
+        "divergent_payment_minimum_value": null,
+        "divergent_payment_maximum_value": null,
+        "divergent_payment_minimum_percentage": null,
+        "divergent_payment_maximum_percentage": null,
+        "divergent_payment_limit": null,
+        "days_for_revoke": null
       }
     ],
     "instructions": "",
