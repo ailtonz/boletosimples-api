@@ -75,6 +75,7 @@ breadcrumb: Carnês
 | **divergent_payment_minimum_percentage** | Não | Float |          | Percentual mínimo para a faixa de pagamentos divergentes. Válido apenas para [Itaú](/bank_contracts/itau) e [Caixa](/bank_contracts/cef).
 | **divergent_payment_maximum_percentage** | Não | Float |          | Percentual máximo para a faixa de pagamentos divergentes. Válido apenas para [Itaú](/bank_contracts/itau) e [Caixa](/bank_contracts/cef).
 | **divergent_payment_limit**         | Não | Integer |          | Quantidade de pagamentos permitida. Obrigatório se informados dados para pagamento divergente. Usado somente pela [Caixa](/bank_contracts/cef).
+| **days_for_revoke**                 | Não | Integer |          | Dias corridos para Baixa/Devolução
 
 ### Dicionário de Dados
 
